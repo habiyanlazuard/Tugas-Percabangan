@@ -15,7 +15,7 @@ public class Tabungan1 {
         System.out.print("bunga (dalam 1 tahun) = ");
         bunga = scanner.nextFloat();
         bunga = (int) ((bunga/100)*saldoAwal);
-        saldoAkhir = (int) (bunga - saldoAwal);
+        saldoAkhir = (int) (bunga + saldoAwal);
 
 
         System.out.println("======================");
